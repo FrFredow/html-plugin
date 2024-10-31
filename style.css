@@ -1,0 +1,60 @@
+/* Style général */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Style de la carte */
+  .profile-card {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  /* Style de l'image */
+  .profile-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 2px solid #4CAF50;
+  }
+  
+  /* Style du nom */
+  .profile-card h2 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Style de la description */
+  .profile-card p {
+    color: #666;
+    font-size: 1em;
+    margin-top: 10px;
+  }
+  
+  /* Style du bouton */
+  .profile-card a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #4CAF50;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .profile-card a:hover {
+    background-color: #45a049;
+  }
+  
